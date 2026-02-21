@@ -40,8 +40,8 @@ The following will:
 
 ```
 library(systemPipeRdata)
-genWorkenvir_gh(url = "https://github.com/systemPipeR/sprwf-new.git", mydirname = "sprwf-new")
-setwd("sprwf-new")
+genWorkenvir_gh(url = "https://github.com/systemPipeR/sprwf-blast.git", mydirname = "sprwf-blast")
+setwd("sprwf-blast")
 getParam_gh()
 getData_gh() # omit if sample data is not needed
 ```
